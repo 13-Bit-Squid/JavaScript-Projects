@@ -1,4 +1,4 @@
-function countdown() {
+function countdown() { //countdown method
     var seconds = document.getElementById("seconds").value;
 
     function tick() {
@@ -15,11 +15,11 @@ function countdown() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function plusSlides(n) { // Next/previous controls
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function currentSlide(n) { // Thumbnail image controls
   showSlides(slideIndex = n);
 }
 
