@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Switch Assignment</title>
+		<meta charset="utf-8">
+        <script src="JavaScript/JavaScript_1.js" defer></script>
+	</head>
+	<body>
+        <div>
+            <h1>What is your favorite Warhammer 40k army?</h1>
+            <h3>Please pick your favorite army from the list below:</h3>
+            <ul>
+                <li>Space Marines</li>
+                <li>Chaos Space Marines</li>
+                <li>Aeldari</li>
+                <li>Drukhari</li>
+                <li>Tau</li>
+                <li>Tyranids</li>
+                <li>Necrons</li>
+            </ul>
+            <h3>Enter your choice below:</h3>
+            <input id="Army_Input" type="text">
+            <button onclick="Army_Function()">Submit</button>
+            <p id="Output"></p>
+        </div>
+
+        <div>
+            <h1 class="click">This text will change!</h1>
+            <h3 class="click">This text will not change.</h3>
+            <button onclick="pos_shift_Function()">Click here!</button> 
+        </div>
+        
+        <div>
+            <canvas id="jsCanvas" width="500" height="250" style="border: 2px solid black;"></canvas>
+            <button onclick="drawcirc_Function()">Click here to draw a circle!</button>
+            <button onclick="grad_Function()">Click here for a gradient!</button>
+        </div>
+
+	</body>
+</html>
