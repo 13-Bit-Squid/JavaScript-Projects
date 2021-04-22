@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Popup Form Challenge</title>
+		<meta name="viewport" content="width=device-wdith, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="CSS/popup_form.css">
+        <script src="JS/popup_form.js"></script>
+	</head>
+	<body>
+
+        <p>According to all known laws<br>
+            of aviation,<br>
+            <hr>
+              
+            there is no way a bee<br>
+            should be able to fly.<br>
+            <br>
+              
+            Its wings are too small to get<br>
+            its fat little body off the ground.<br>
+            <br>
+              
+            The bee, of course, flies anyway<br>
+            <br>
+              
+            because bees don't care<br>
+            what humans think is impossible.<br>
+            <br>
+              
+            Yellow, black. Yellow, black.<br>
+            Yellow, black. Yellow, black.<br>
+            <br>
+              
+            Ooh, black and yellow!<br>
+            Let's shake it up a little.<br>
+            <br>
+              
+            Barry! Breakfast is ready!<br>
+            <br>
+              
+            Ooming!<br>
+            <br>
+              
+            Hang on a second.<br>
+            <br>
+              
+            Hello?<br>
+            <br>
+              
+            - Barry?<br>
+            - Adam?<br>
+            <br>
+              
+            - Oan you believe this is happening?<br>
+            - I can't. I'll pick you up.<br>
+            <br>
+              
+            Looking sharp.<br>
+            <br>
+              
+            Use the stairs. Your father<br>
+            paid good money for those.<br>
+            <br>
+              
+            Sorry. I'm excited.<br>
+            <br>
+              
+            Here's the graduate.<br>
+            We're very proud of you, son.<br>
+            <br>
+              
+            A perfect report card, all B's.<br>
+            <br>
+              
+            Very proud.<br>
+            <br>
+              
+            Ma! I got a thing going here.<br>
+            <br>
+              
+            - You got lint on your fuzz.<br>
+            - Ow! That's me!<br>
+            <br>
+              
+            - Wave to us! We'll be in row 118,000.<br>
+            - Bye!<br>
+            <br>
+              
+            Barry, I told you,<br>
+            stop flying in the house!<br>
+            <br>
+              
+            - Hey, Adam.<br>
+            - Hey, Barry.<br>
+            <br>
+              
+            - Is that fuzz gel?<br>
+            - A little. Special day, graduation.<br>
+            <br>
+              
+            Never thought I'd make it.<br>
+            <br>
+              
+            Three days grade school,<br>
+            three days high school.<br>
+            <br>
+              
+            Those were awkward.<br></p>
+
+        <button class="open-button" onclick="openForm()">Open Form</button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+            <h1>Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+    </body>
+</html>
